@@ -1,0 +1,52 @@
+body{
+    direction:rtl;
+}
+
+
+
+
+@media  screen and (min-width: 768px){
+
+.list-unstyled {
+    padding-right: 0;
+}
+
+.pull-right {
+    float: left !important;
+  }
+  .pull-left {
+    float: right !important;
+  }
+
+  .media-right,
+  .media > .pull-right {
+    padding-right: 10px;
+  }
+  .media-left,
+  .media > .pull-left {
+    padding-left: 10px;
+  }
+
+}
+
+  @media(max-width:767px){
+
+
+  .pull-right {
+    float: left !important;
+  }
+  .pull-left {
+    float: right !important;
+  }
+
+  .media-right,
+  .media > .pull-right {
+    padding-right: 10px;
+  }
+  .media-left,
+  .media > .pull-left {
+    padding-left: 10px;
+  }
+
+
+  }

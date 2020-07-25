@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<!-- IE Compatibility Meta-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--First Mobile Data-->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>bootstrap</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+<!--<link rel="stylesheet" href="css/bootstrap_rtl.css">-->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/media.css">
+<!--<link rel="stylesheet" href="css/style_rtl.css">-->
+<link rel="stylesheet" href="css/default_theme.css">
+<link rel="stylesheet" href="css/hover.css">
+<link rel='stylesheet' href='css/animate.css' />
+
+
+<!--[if lt IE 9]-->
+<script src="js/html5shiv.min.js"></script>
+<script src="js/respond.min.js"></script>
+<!--[endif]-->
+</head>
+<body>
+
+<!--start tool box option-->
+
+<section class="option-box">
+    <div class="color-option">
+        <h3>color option</h3>
+        <ul class="list-unstyled">
+            <li data-value="css/default_theme.css"></li>
+            <li data-value="css/dodgerblue_theme.css"></li>
+            <li data-value="css/green_theme.css"></li>
+            <li data-value="css/yellow_theme.css"></li>
+            <li data-value="css/pink_theme.css"></li>
+        </ul>
+    </div>
+    <i class="fa fa-gear fa-3x gear-check"></i>
+</section>
+
+<!--end tool box option-->
+
+<!--start navbar-->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div class="container"><!--start container-->
+
+    <div class="navbar-header"> <!--start navbar header-->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#ournavbar">
+        <span class="src-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand wobble-horizontal">abdo <span>Inc</span></a> 
+    </div> <!--end navbar header-->
+
+    <div class="collapse navbar-collapse" id="ournavbar"> <!--start navbar collapse-->
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active"> <a href="index.html">Home</a> </li>
+            <li> <a href="about.html">About</a> </li>
+            <li> <a href="faq.html">FAQ</a> </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li> <a href="#price-table">Price-Table</a> </li>
+                    <li> <a href="#our-team">Our Team</a> </li>
+                    <li> <a href="#statistics">Statistics</a> </li>
+                    <li class="divider"></li>
+                    <li> <a href="#contact-us">Contact us</a> </li>
+                </ul>
+            </li>
+        </ul>
+
+    </div> <!--end navbar collapse-->
+</div> <!--end container-->
+</nav>
+
+<!--end navbar-->
+
+<!--start carousel slide-->
+
+<div id="myslide" class="carousel slide hidden-xs" data-ride="carousel"> 
+    <ol class="carousel-indicators ">
+        <li data-target="#myslide" data-slide-to="0" class="active"></li>
+        <li data-target="#myslide" data-slide-to="1"></li>
+        <li data-target="#myslide" data-slide-to="2"></li>
+        <li data-target="#myslide" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner"> <!--start carousel inner-->
+        <div class="item active">
+            <img src="images/01.jpg" alt="pic1">
+            <div class="carousel-caption">
+                <h1>programming</h1>
+                <p class="lead hidden-xs">Carousels don’t automatically normalize slide dimensions. As such, you may need to use additional utilities or custom styles to appropriately size content. While carousels support previous/next controls and indicators, they’re not explicitly required. Add and customize as you see fit</p>
+                <div class="btn btn-primary"></div>
+                <div class="btn btn-danger"></div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/02.jpg" alt="pic2">
+            <div class="carousel-caption">
+                <h1>Web Design</h1>
+                <p class="lead hidden-xs">Carousels don’t automatically normalize slide dimensions. As such, you may need to use additional utilities or custom styles to appropriately size content. While carousels support previous/next controls and indicators, they’re not explicitly required. Add and customize as you see fit</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/03.jpg" alt="pic3">
+            <div class="carousel-caption">
+                <h1>Web Hosting</h1>
+                <p class="lead hidden-xs">Carousels don’t automatically normalize slide dimensions. As such, you may need to use additional utilities or custom styles to appropriately size content. While carousels support previous/next controls and indicators, they’re not explicitly required. Add and customize as you see fit</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/04.jpg" alt="pic4">
+            <div class="carousel-caption">
+                <h1>Social</h1>
+                <p class="lead hidden-xs">Carousels don’t automatically normalize slide dimensions. As such, you may need to use additional utilities or custom styles to appropriately size content. While carousels support previous/next controls and indicators, they’re not explicitly required. Add and customize as you see fit</p>            </div>
+        </div>
+    </div> <!--end carousel inner-->
+
+    <a class="left carousel-control" href="#myslide" role="botton" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myslide" role="botton" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+
+</div>
+
+ <!--end carousel slide-->
+
+<!--start info section-->
+
+<section class="about text-center wow bounceIn" data-wow-duration="2s" data-wow-offset="300">
+<div class="container">
+    <h1 class="hidden-xs">meet our template <span>abdo</span></h1>
+    <h3 class="visible-xs">meet our templates <span>abdo</span></h3>
+    <p class="lead">
+        Carousels don’t automatically normalize slide dimensions. As such, you may need to use additional utilities or custom styles to appropriately size content. While carousels support previous/next controls and indicators, they’re not explicitly required. Add and customize as you see fit
+    </p>
+</div>
+</section>
+<!--end info section-->
+
+<!--start features section-->
+
+<section class="features text-center">
+    <div class="container">
+        <h2 class="h1">Our Features</h2>
+        <div class="row"><!--start row-->
+
+            <div class="col-lg-3 col-md-6">
+                <div class="feat wow bounceInLeft" data-wow-duration="1s" data-wow-offset="200">
+                    <span class="glyphicon glyphicon-ok"></span>
+                    <h4>100% Responsive</h4>
+                    <p> Carousels don’t automatically normalize slide dimensions. As such, you may need to use additional utilities or custom styles to appropriately size content.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="feat wow bounceInDown" data-wow-duration="1s" data-wow-offset="200">
+                    <span class="glyphicon glyphicon-thumbs-up"></span>
+                    <h4>Retina Ready</h4>
+                    <p> Carousels don’t automatically normalize slide dimensions. As such, you may need to use additional utilities or custom styles to appropriately size content.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="feat wow bounceInUp" data-wow-duration="1s" data-wow-offset="200">
+                    <span class="glyphicon glyphicon-eye-open"></span>
+                    <h4>Awesome Display</h4>
+                    <p> Carousels don’t automatically normalize slide dimensions. As such, you may need to use additional utilities or custom styles to appropriately size content.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="feat wow bounceInRight" data-wow-duration="1s" data-wow-offset="200">
+                    <span class="glyphicon glyphicon-pencil"></span>
+                    <h4>Well Documented</h4>
+                    <p> Carousels don’t automatically normalize slide dimensions. As such, you may need to use additional utilities or custom styles to appropriately size content.</p>
+                </div>
+            </div>
+        </div><!--end row-->
+    </div>
+</section>
+
+<!--end features section-->
+
+<!--start testimonial-->
+
+<section class="testimonials text-center wow flipInY" data-wow-duration="1s" data-wow-offset="200">
+    <div class="container"><!--start container-->
+        <h2 class="h1">what our clients says</h2>
+        <div id="carousel-testimonials" class="carousel slide" data-ride="carousel"> <!--start carousel slide-->
+            <div class="carousel-inner"> <!--start carousel inner-->
+                <div class="item active">
+                    <p class="lead">Carousels don’t automatically normalize slide dimensions. As such, you may need to use additional utilities or custom styles to appropriately size content. While carousels support previous/next controls and indicators, they’re not explicitly required. Add and customize as you see fit</p>
+                    <span>Abdo Tarek</span>
+                </div>
+               <div class="item">
+                    <p class="lead">Carousels don’t automatically normalize slide dimensions. As such, you may need to use additional utilities or custom styles to appropriately size content. While carousels support previous/next controls and indicators, they’re not explicitly required. Add and customize as you see fit</p>
+                    <span>Abdo Tarek</span>
+                </div>
+                <div class="item">
+                    <p class="lead">Carousels don’t automatically normalize slide dimensions. As such, you may need to use additional utilities or custom styles to appropriately size content. While carousels support previous/next controls and indicators, they’re not explicitly required. Add and customize as you see fit</p>
+                    <span>Abdo Tarek</span>
+                </div>
+                <div class="item">
+                    <p class="lead">Carousels don’t automatically normalize slide dimensions. As such, you may need to use additional utilities or custom styles to appropriately size content. While carousels support previous/next controls and indicators, they’re not explicitly required. Add and customize as you see fit</p>
+                    <span>Abdo Tarek</span>
+                </div>
+            </div> <!--end carousel inner-->            
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-testimonials" data-slide-to="0" class="active">
+                    <img src="images/5.jpg">
+                </li>
+                <li data-target="#carousel-testimonials" data-slide-to="1">
+                    <img src="images/6.jpg">
+                </li>
+                <li data-target="#carousel-testimonials" data-slide-to="2">
+                    <img src="images/7.jpg">
+                </li>
+                <li data-target="#carousel-testimonials" data-slide-to="3">
+                    <img src="images/9.jpg">
+                </li>
+            </ol>
+        </div> <!--end carousel slide-->
+    </div><!--end container-->
+</section>
+
+<!--end testimonial-->
+
+<!--end price table-->
+
+<section id="price-table" class="price-table text-center">
+    <div class="container">
+        <h2 class="h1">Our Amazing Prices</h2>
+        <div class="row"><!--start row-->
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+                <div class="price-box wow fadeInUp" data-wow-duration="2s" data-wow-offset="400"><!--start price box-->
+                    <h2 class="text-primary">plan#1</h2>
+                    <p class="center-block">$40</p>
+                    <ul class="list-unstyled">
+                        <li>space:30GB</li>
+                        <li>email:20</li>
+                        <li>ips:2 ip</li>
+                        <li>database:10</li>
+                        <li>ftp account:10</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div><!--end price box-->
+            </div>
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+                <div class="price-box wow fadeInDown" data-wow-duration="2s" data-wow-offset="400"><!--start price box-->
+                    <h2 class="text-success">plan#2</h2>
+                    <p class="center-block">$40</p>
+                    <ul class="list-unstyled">
+                        <li>space:30GB</li>
+                        <li>email:20</li>
+                        <li>ips:2 ip</li>
+                        <li>database:10</li>
+                        <li>ftp account:10</li>
+                    </ul>
+                    <a href="#" class="btn btn-success">Order Now</a>
+                </div><!--end price box-->
+            </div>
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                <div class="price-box wow fadeInUp" data-wow-duration="2s" data-wow-offset="400"><!--start price box-->
+                    <h2 class="text-info">plan#3</h2>
+                    <p class="center-block">$40</p>
+                    <ul class="list-unstyled">
+                        <li>space:30GB</li>
+                        <li>email:20</li>
+                        <li>ips:2 ip</li>
+                        <li>database:10</li>
+                        <li>ftp account:10</li>
+                    </ul>
+                    <a href="#" class="btn btn-info">Order Now</a>
+                </div><!--end price box-->
+            </div> 
+            <div class="col-lg-3 col-sm-6 col-xs-12">
+                <div class="price-box wow fadeInDown" data-wow-duration="2s" data-wow-offset="400"><!--start price box-->
+                    <h2 class="text-danger">plan#4</h2>
+                    <p class="center-block">$40</p>
+                    <ul class="list-unstyled">
+                        <li>space:30GB</li>
+                        <li>email:20</li>
+                        <li>ips:2 ip</li>
+                        <li>database:10</li>
+                        <li>ftp account:10</li>
+                    </ul>
+                    <a href="#" class="btn btn-danger">Order Now</a>
+                </div><!--end price box-->
+            </div>
+        </div><!--end row-->
+    </div>
+</section>
+
+<!--end price table-->
+
+<!--start our team-->
+
+<section id="our-team" class="our-team text-center">
+    <div class="team">
+        <div class="container"><!--start conatiner-->
+            <h2 class="h1">Meet Our Awesome Team</h2>
+            <div class="row"><!--start row-->
+                <div class="col-lg-3 col-md-6">
+                  <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="400">
+                      <img class="img-circle" src="images/chris.jpg" alt="chris coyier">
+                      <h3>chris</h3>
+                      <p>Chris Coyier The Founder Of The Amazing Website CSS Tricks.</p>
+                      <i class="fa fa-google-plus-square fa-lg"></i>
+                      <i class="fa fa-facebook-square fa-lg"></i>
+                      <i class="fa fa-twitter-square fa-lg"></i>
+                      <i class="fa fa-youtube-square fa-lg"></i>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="400">
+                        <img class="img-circle" src="images/leah.jpg" alt="leah culver">
+                        <h3>leah culver</h3>
+                        <p>This Is Amazing Hacker Woman With A Much Knowledge In Hacker Systems.</p>
+                        <i class="fa fa-google-plus-square fa-lg"></i>
+                        <i class="fa fa-facebook-square fa-lg"></i>
+                        <i class="fa fa-twitter-square fa-lg"></i>
+                        <i class="fa fa-youtube-square fa-lg"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                        <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="400">
+                            <img class="img-circle" src="images/steve.jpg" alt="steve jobs">
+                            <h3>steve jobs</h3>
+                            <p>This Is Man Who Change The World With His Apple products.</p>
+                            <i class="fa fa-google-plus-square fa-lg"></i>
+                            <i class="fa fa-facebook-square fa-lg"></i>
+                            <i class="fa fa-twitter-square fa-lg"></i>
+                            <i class="fa fa-youtube-square fa-lg"></i>
+                        </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                        <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="400">
+                            <img class="img-circle" src="images/marissa.jpg" alt="marissa mayer">
+                            <h3>marissa mayer</h3>
+                            <p>this Is Amazing Hacker Woman With A Much Knowledge In Hacker Systems.</p>
+                            <i class="fa fa-google-plus-square fa-lg"></i>
+                            <i class="fa fa-facebook-square fa-lg"></i>
+                            <i class="fa fa-twitter-square fa-lg"></i>
+                            <i class="fa fa-youtube-square fa-lg"></i>
+                        </div>
+                </div>
+            </div><!--end row-->
+        </div><!--end conatiner-->
+    </div>
+</section>
+
+<!--end our team-->
+
+<!--start subscribe-->
+
+<section class="subscribe text-center wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
+    <div class="container">
+        <h2 class="h1">Keep In Touch</h2>
+        <p class="lead">Sign Up For Newlestter Dont Worry About Spam We Hate It Too</p>
+        <form class="form-inline">
+            <input class="form-control input-lg" type="text" placeholder="Write Your Email">
+            <button class="btn btn-primary btn-lg"><i class="fa fa-edit fa-lg"></i>Subscribe</button>
+        </form>
+    </div>
+</section>
+
+<!--end subscribe-->
+
+<!--start statistics-->
+
+<section id="statistics" class="statistics text-center">
+    <div class="data"><!--start data-->
+        <div class="container"><!--start container-->
+            <h2 class="h1">Our Main Statistics</h2>
+            <div class="row"><!--start row-->
+                <div class="col-md-3 col-xs-6"><!--start col md 3-->
+                    <div class="stats">
+                        <i class="fa fa-users fa-5x"></i>
+                        <p>9,550</p>
+                        <span>Satisfied Users</span>
+                    </div>
+                </div><!--end col md 3-->
+                <div class="col-md-3 col-xs-6"><!--start col md 3-->
+                    <div class="stats">
+                        <i class="fa fa-comments fa-5x"></i>
+                        <p>9,550</p>
+                        <span>Posted Comments</span>
+                    </div>
+                </div><!--end col md 3-->
+                <div class="col-md-3 col-xs-6"><!--start col md 3-->
+                    <div class="stats">
+                        <i class="fa fa-suitcase fa-5x"></i>
+                        <p>9,550</p>
+                        <span>Projects Done</span>
+                    </div>
+                </div><!--end col md 3-->
+                <div class="col-md-3 col-xs-6"><!--start col md 3-->
+                    <div class="stats">
+                        <i class="fa fa-support fa-5x"></i>
+                        <p>9,550</p>
+                        <span>Tickets Archived</span>
+                    </div>
+                </div><!--end col md 3-->
+            </div><!--end row-->
+        </div><!--end container-->
+    </div><!--end data-->
+</section>
+
+<!--end statistics-->
+
+<!--start progress-->
+
+<section class="our-progress">
+    <div class="container">
+        <h2 class="text-center h1">Our Skills</h2>
+        <div class="row"><!--start row-->
+            <div class="col-md-5"><!--start col md 5-->
+                <div class="skills-progress">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-primary progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemin="100" style="width:80%" >
+                            HTML5/CSS3
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-progress">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemin="100" style="width:90%" >
+                            JAVASCRIPT/JQUERY
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-progress">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemin="100" style="width:70%" >
+                            PHP/MYSQl
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-progress">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemin="100" style="width:95%">
+                           WORDPRESS
+                        </div>
+                    </div>
+                </div>
+            </div><!--end col md 5-->
+            <div class="col-md-6 col-md-offset-1"><!--start col md 5-->
+                <div class="skills-info">
+                    <h3>About The Team</h3>
+                    <p class="lead">Carousels don’t automatically normalize slide dimensions. As such, you may need to use additional utilities or custom styles to appropriately size content. While carousels support previous/next controls and indicators, they’re not explicitly required. Add and customize as you see fit</p>
+                    <button type="button" class="btn btn-primary btn-lg">Talk With A Professional</button>
+                </div>
+            </div><!--end col md 5-->
+        </div><!--end row-->
+    </div>
+</section>
+
+<!--end progress-->
+
+<!--start contact us-->
+
+<section id="contact-us" class="contact-us text-center">
+    <div class="feilds">
+        <div class="container"><!--start container-->
+            <div class="row">
+                <i class="fa fa-headphones fa-5x"></i>
+                <h2 class="text-center h1">Contact Us</h2>
+                <p class="lead">Feel Free To Contact US</p>
+                <form role="form">
+                    <div class="col-md-6 wow bounceInLeft" data-wow-duration="1s" data-wow-offset="400">
+                        <div class="form-group">
+                            <input type="text" class="form-control input-lg" placeholder="username">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control input-lg" placeholder="Email">
+                        </div>
+                         <div class="form-group">  
+                            <input type="text" class="form-control input-lg" placeholder="mobile number">
+                        </div> 
+                    </div>    
+                    <div class="col-md-6 wow bounceInRight" data-wow-duration="1s" data-wow-offset="400">
+                        <div class="form-group">
+                            <textarea class="form-control input-lg" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-danger btn-lg btn-block">Contact Us</button>
+                    </div>
+                </form>
+            </div>
+        </div><!--end container-->
+    </div>
+</section>
+
+<!--end contact us-->
+
+<!--start our clients-->
+<section class="our-clients text-center">
+    <div class="container">
+        <div class="row">
+            <ul class="list-unstyled">
+                <li class="col-md-2 col-xs-4">
+                     <img class="img-responsive center-block wow bounceIn" src="images/our-clients/bbc.png" alt="bbc" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay=".5s">
+                </li>
+                <li class="col-md-2 col-xs-4">
+                    <img class="img-responsive center-block wow bounceIn" src="images/our-clients/cnn.png" alt="cnn" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay="1s">
+               </li>
+               <li class="col-md-2 col-xs-4">
+                <img class="img-responsive center-block wow bounceIn" src="images/our-clients/forbes.png" alt="forbes" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay="1.5s">
+                </li>
+                <li class="col-md-2 col-xs-4">
+                    <img class="img-responsive center-block wow bounceIn" src="images/our-clients/wired.png" alt="wired" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay="2s">
+                </li>
+                <li class="col-md-2 col-xs-4">
+                    <img class="img-responsive center-block wow bounceIn" src="images/our-clients/wsj.png" alt="wsj" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay="2.5s">
+                </li>
+                <li class="col-md-2 col-xs-4">
+                    <img class="img-responsive center-block wow bounceIn" src="images/our-clients/techradar.png" alt="techradar" data-wow-duration=".5s" data-wow-offset="200" data-wow-delay="3s">
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!--end our clients-->
+
+<!--start footer-->
+
+<section class="footer">
+    <div class="container"><!--start container-->
+        <div class="row"><!--start row-->
+            <div class="col-lg-4 col-md-6">
+                <h3>Sitemap</h3>
+                <ul class="list-unstyled three-coloums">
+                    <li>Home</li>
+                    <li>Code</li>
+                    <li>Solutions</li>
+                    <li>About</li>
+                    <li>Design</li>
+                    <li>Sitemap</li>
+                    <li>Company</li>
+                    <li>Host</li>
+                    <li>Contact</li>
+                </ul>
+                <ul class="list-unstyled social-list">
+                    <li><img src="images/social-bookmarks/facebook.png"  alt="facebook"></li>
+                    <li><img src="images/social-bookmarks/twitter.png"   alt="twitter"></li>
+                    <li><img src="images/social-bookmarks/rss.png"       alt="rss"></li>
+                    <li><img src="images/social-bookmarks/gplus.png"     alt="google plus"></li>
+                    <li><img src="images/social-bookmarks/pinterest.png" alt="pinterest"></li>
+                    <li><img src="images/social-bookmarks/email.png"     alt="email"></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6"><!--start second col md 4-->
+                <h3>Latest Article</h3>
+                <div class="media"><!--start media-->
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="images/articles/01.jpg" alt="01">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Programming</h4>
+                        This IS Some Text About Programming Describe Media Of Bootstrap v.4.0
+                    </div>
+                </div><!--end media-->
+                <div class="media"><!--start media-->
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="images/articles/02.jpg" alt="02">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Coding</h4>
+                        This IS Some Text About Programming Describe Media Of Bootstrap v.4.0
+                    </div>
+                </div><!--end media-->
+                <div class="media"><!--start media-->
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="images/articles/03.jpg" alt="03">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Web Design</h4>
+                        This IS Some Text About Programming Describe Media Of Bootstrap v.4.0
+                    </div>
+                </div><!--end media-->
+            </div><!--end second col md 4-->
+            <div class="col-lg-4 col-md-12"><!--start third col md 4-->
+                <h3>Our Awesomr Work</h3>
+                <img class="img-thumbnail" src="images/work/01.jpg" alt="01">
+                <img class="img-thumbnail" src="images/work/02.jpg" alt="02">
+                <img class="img-thumbnail" src="images/work/03.jpg" alt="03">
+                <img class="img-thumbnail" src="images/work/04.jpg" alt="04">
+            </div><!--end third col md 4-->
+        </div><!--end row-->
+    </div><!--end container-->
+    <div class="copyright text-center">
+        Copyright $copy; 2020 <span>Abdo</span>.inc
+    </div>
+</section>
+
+<!--end footer-->
+
+<!-- Start Scroll To Top -->
+
+ <div id="scroll-top">
+     <i class="fa fa-chevron-up fa-3x"></i>
+ </div>
+        
+ <!-- End Scroll To Top -->
+
+<!--start loading-->
+<section class="loading">
+    <div class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+    </div>
+</section>
+
+<!--end loading-->
+
+<script src="js/jquery-1.11.1.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/plugins.js"></script>
+ <script src="js/wow.min.js"></script>
+ <script>new WOW().init();</script>
+ <script src="js/jquery.nicescroll.min.js"></script>
+</body>
+</html>
