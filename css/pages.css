@@ -11,6 +11,17 @@
 
 /* End Global */
 
+/*start navbar*/
+
+.option-box{
+    position:fixed;
+    z-index:9999;
+    top:150px;
+    left:0;
+}
+
+/*end navbar*/
+
 /* Start About Us */
 
 .about-us {

@@ -7,7 +7,7 @@ body{
 .option-box{
     position:fixed;
     z-index:9999;
-    top:60px;
+    top:250px;
     left:0;
 }
 
@@ -169,6 +169,7 @@ body{
 
 .testimonials{
     padding:50px 0;
+    height:440px;
 }
 
 
