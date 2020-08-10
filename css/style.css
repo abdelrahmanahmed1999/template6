@@ -90,14 +90,21 @@ body{
 
 /*start carousel*/
 
-.carousel,
-.carousel-inner > .item{
-    height:200px;
+.carousel, .carousel-inner > .item{
+    height:360px;
 }
 
-.carousel .carousel-inner .item img{
-    height:100%;
+
+@media(max-width:767px){
+    
+    .carousel, .carousel-inner > .item{
+        height:200px;
+    }
+    .carousel .carousel-inner .item img{
+        height:100%;
+    }
 }
+
 
 .carousel-caption{
     bottom:70px;
