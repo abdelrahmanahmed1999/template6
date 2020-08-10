@@ -1,5 +1,5 @@
 body{
-    padding-top:60px;
+    padding-top:50px;
 }
 
 /*start tool box option*/
@@ -7,7 +7,7 @@ body{
 .option-box{
     position:fixed;
     z-index:9999;
-    top:100px;
+    top:60px;
     left:0;
 }
 
@@ -54,6 +54,13 @@ body{
     font-size:17px;
 }
 
+@media(max-width:767px){
+    .navbar{
+        margin-bottom:0;
+    }
+}
+
+
 /* end navbar*/
 
 /* start navbar menu*/
@@ -83,10 +90,13 @@ body{
 
 /*start carousel*/
 
-.img-responsive, .thumbnail > img,
-.thumbnail a > img, .carousel-inner > .item > img,
-.carousel-inner > .item > a > img{
-    width:100%;
+.carousel,
+.carousel-inner > .item{
+    height:200px;
+}
+
+.carousel .carousel-inner .item img{
+    height:100%;
 }
 
 .carousel-caption{
