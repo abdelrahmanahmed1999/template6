@@ -118,6 +118,22 @@ body{
     padding:50px 0;
 }
 
+@media(max-width:767px){
+    
+    .features{
+        padding:20px 0;
+    }
+
+    .features .h1{
+        font-size:24px;
+        margin-bottom:20px !important;
+    }
+    
+    .features .feat p{
+        line-height:1.5 !important;
+    }   
+}
+
 .feat{
     margin-bottom:30px;
 }
@@ -144,6 +160,27 @@ body{
 .testimonials{
     padding:50px 0;
 }
+
+
+@media(max-width:767px){
+    
+    .testimonials{
+        padding:20px 0;
+    }
+
+    .testimonials .h1{
+        font-size:24px;
+        margin-bottom:20px !important;
+    }
+
+    .testimonials .lead{
+        line-height:1.5 !important;
+        font-size: 15px;
+        font-size:15px;
+        color:darkgrey;   
+    }
+}
+
 
 .testimonials .lead{
     line-height:2em;
@@ -199,6 +236,19 @@ body{
 .price-table{
     background:#EEE;
     padding:40px 0;
+}
+
+
+@media(max-width:767px){
+    
+    .price-table{
+        padding:20px 0;
+    }
+
+    .price-table .h1{
+        font-size:24px;
+        margin-bottom:20px !important;
+    }
 }
 
 .price-table .price-box{
@@ -258,6 +308,24 @@ body{
     min-height:600px;
 }
 
+
+@media(max-width:767px){
+
+    .our-team .h1{
+        font-size:24px;
+        margin-bottom:20px !important;
+    }
+
+    .our-team .person img{
+        width:100px;
+        height:100px;
+    }
+
+    .our-team .person h3{
+        font-size:15px;
+    }
+}
+
 .our-team .team{
     background:rgba(2,2,2,0.75);
     color:#FFF;
@@ -278,6 +346,18 @@ body{
     padding-top:40px;
     padding-bottom:40px;
     background:#EEE;
+}
+
+@media(max-width:767px){
+    
+    .subscribe{
+        padding:20px 0;
+    }
+
+    .subscribe .h1{
+        font-size:24px;
+        margin-bottom:20px !important;
+    }
 }
 
 .subscribe p{
@@ -301,6 +381,29 @@ body{
     min-height:300px;
 }
 
+
+@media(max-width:767px){
+
+    .statistics .h1{
+        font-size:24px;
+        margin-bottom:20px !important;
+    }
+
+
+    .statistics i{
+        font-size:40px;
+    }
+    
+    .statistics p{
+        font-size:40px !important;
+    }
+    
+    .statistics span{
+        font-size:15px !important;
+    }
+}
+
+
 .statistics .data{
     background:rgba(2,2,2,0.75);
     color:#B6b5b5;
@@ -314,6 +417,7 @@ body{
     -moz-transition:all 0.5s ease-in-out;    
     -o-transition:all 0.5s ease-in-out;    
     transition:all 0.5s ease-in-out;    
+    margin-bottom:30px;
 }
 
 .statistics .stats:hover{
@@ -337,6 +441,31 @@ body{
 .our-progress{
     padding-top:40px;
     padding-bottom:70px;
+}
+
+
+@media(max-width:767px){
+
+    
+    .our-progress{
+        padding-top:20px 0;
+    }
+
+    .our-progress .h1{
+        font-size:24px;
+        margin-bottom:20px !important;
+    }
+
+    .our-progress h3{
+        font-size:20px;
+        margin-bottom:20px;
+    }
+    
+    .our-progress .skills-info p{
+        font-size:15px;
+        color:darkgrey;
+    }
+    
 }
 
 .our-progress h3{
